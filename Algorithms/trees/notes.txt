@@ -1,0 +1,16 @@
+Graphs can start anywhere
+
+Trees have root nodes
+Leaf (a node without conection to others)
+Directed
+acyclical
+
+Not always true:
+Trees tend to be balanced
+
+DFS:Depth First Search
+
+If trees are completely connected you can just ask 
+if element exists
+
+
