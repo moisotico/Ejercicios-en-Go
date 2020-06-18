@@ -1,0 +1,8 @@
+Queues:
+Like lines in a store
+Enqueue: item to the back of the Queues
+Dequeue: remove item from the front
+
+Most common use: BFS
+
+

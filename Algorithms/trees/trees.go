@@ -26,7 +26,7 @@ func printNode(n *Node) {
 
 }
 
-func main() {
+func read() []Node {
 	//node variables
 	var val, indexLeft, indexRight int
 
@@ -48,7 +48,6 @@ func main() {
 
 	// nodes
 	N := len(csvData)
-	fmt.Println("Number of Nodes:", N)
 	nodes := make([]Node, N)
 	count := 0
 
@@ -67,8 +66,12 @@ func main() {
 		}
 		count++
 	}
+	return nodes
+}
+
+func main() {
+	nodes := read()
 	for _, node := range nodes {
 		printNode(&node)
 	}
-
 }
