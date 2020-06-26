@@ -1,0 +1,8 @@
+*Always close channels
+close(chanName)
+
+*get into channel syntax for a void function:
+func funcName(paramInputChanName <- chan type, paramOutputChanName chan <- type){
+    ...
+} 
+		

@@ -1,0 +1,11 @@
+* Ask for definitions
+* Ask for more info
+* Describe intuition
+* Try to store in heap ()
+
+* Describe in steps
+
+* Time & Space
+ 
+ * Ask what the interviewer wants
+
